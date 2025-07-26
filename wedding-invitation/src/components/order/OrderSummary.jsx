@@ -8,14 +8,14 @@ import { MdOutlinePayments } from "react-icons/md";
 
 
 
-import visaImg from "../../assets/icons/visa.png";
-import mastercardImg from "../../assets/icons/mastercard.png";
-import paypalImg from "../../assets/icons/paypal.png";
-import gpayImg from "../../assets/icons/gpay.png";
-import upiImg from "../../assets/icons/upi.png";
-import phonepeImg from "../../assets/icons/phonepe.png";
-import paytmImg from "../../assets/icons/paytm.png";
-import creditCardImg from "../../assets/icons/cred.png";
+import visaImg from "../../assets/icons/visa.PNG";
+import mastercardImg from "../../assets/icons/mastercard.PNG";
+import paypalImg from "../../assets/icons/paypal.PNG";
+import gpayImg from "../../assets/icons/gpay.PNG";
+import upiImg from "../../assets/icons/upi.PNG";
+import phonepeImg from "../../assets/icons/phonepe.PNG";
+import paytmImg from "../../assets/icons/paytm.PNG";
+import creditCardImg from "../../assets/icons/cred.PNG";
 
 
 
