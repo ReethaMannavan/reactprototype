@@ -15,6 +15,9 @@ import OrderSummaryPage from './pages/OrderSummaryPage';
 import OrderConfirmedPage from './pages/OrderConfirmedPage';
 import AboutUsPage from './pages/AboutUsPage';
 import FAQPage from './pages/FAQPage';
+import ScrollToTop from './components/footercomponents/ScrollToTop';
+import ContactUsPage from './pages/ContactUsPage';
+import HowtoOrderPage from './pages/HowToOrderPage';
 function App() {
 
 
@@ -26,7 +29,7 @@ function App() {
       <div className="min-h-screen bg-[#E6E6FA] font-poppins text-black">
       
         <main>
-         
+         <ScrollToTop/>
           <Routes>
             <Route path="/" element={<HomePage/>} />
          
@@ -42,6 +45,8 @@ function App() {
             <Route path="/orderconfirmed" element={<OrderConfirmedPage/>} />
             <Route path="/aboutus" element={<AboutUsPage/>} />
             <Route path="/faq" element={<FAQPage/>} />
+            <Route path="/contact" element={<ContactUsPage/>} />
+            <Route path="/how-to-order" element={<HowtoOrderPage/>} />
           </Routes>
          
         </main>
